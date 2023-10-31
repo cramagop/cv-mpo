@@ -1,0 +1,37 @@
+body {
+    margin: auto;
+    width: 1160px;
+    border: 3px solid black;
+}
+
+h1 {
+    font-family: "Lato";
+    font-size: 2em;
+    color: white;
+    margin: 5px;
+}
+
+#body-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #782221;
+}
+
+#body-header > p {
+    font-family: "Raleway-Regular";
+    font-size: 1em;
+    color: white;
+}
+
+#photo-profile {
+    width: 150px;
+    height: 150px;
+}
+
+#photo-profile > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
