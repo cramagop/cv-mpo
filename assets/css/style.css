@@ -7,25 +7,24 @@ body {
     width: 1160px;
 }
 
+/* Header CSS start */
 .header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     background-color: #782221;
+    color: white;
 }
 
 .header__title {
     font-family: "Lato";
     font-size: 2em;
-    color: white;
     margin: 10px;
 }
 
 .header__text {
     font-family: "Raleway-Regular";
     font-size: 1.5em;
-    color: white;
     margin-top: 10px;
 }
 
@@ -41,3 +40,42 @@ body {
     border-radius: 50%;
     box-shadow: 0 0 15px #dbc2a4;
 }
+/* Header CSS end */
+
+
+/* Address CSS start */
+.address {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #2c1d27;
+}
+
+.address__child {
+    flex: 1 1 0;
+    align-self: center;
+    font-family: "Lato";
+    font-size: 1em;
+    color: white;
+}
+
+.address__child-link--style {
+    text-decoration: none;
+    color: white;
+}
+
+.address__child-at--start {
+    text-align: start;
+    margin-left: 30px;
+}
+
+.address__child-at--center {
+    text-align: center;
+}
+
+.address__child-at--end {
+    text-align: end;
+    margin-right: 30px;
+}
+/* Address CSS end */
