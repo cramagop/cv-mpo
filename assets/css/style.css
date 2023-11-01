@@ -49,10 +49,28 @@ body {
 }
 
 .address__child {
-    flex-grow: 1;
+    flex: 1 1 0;
     align-self: center;
-    font-family: "Raleway-Regular";
-    font-style: italic;
+    font-family: "Lato";
     font-size: 1em;
     color: white;
+}
+
+.address__child-style--link {
+    text-decoration: none;
+    color: white;
+}
+
+.address__child-at--start {
+    text-align: start;
+    margin-left: 30px;
+}
+
+.address__child-at--center {
+    text-align: center;
+}
+
+.address__child-at--end {
+    text-align: end;
+    margin-right: 30px;
 }
