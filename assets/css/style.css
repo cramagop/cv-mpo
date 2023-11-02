@@ -89,19 +89,19 @@ body {
     border-right: 2px solid #2c1d27;
 }
 
-.main__article-left {
+.main__left {
     flex: 1 1 0;
     background-color: #782221;
 }
 
-.main__article-left > section  {
+.main__left > section  {
     font-family: "Raleway-Regular";
     color: white;
     margin-right: 40px;
     margin-bottom: 30px;
 }
 
-.main__article-left > section > h2 {
+.main__left > section > h2 {
     font-family: "Lato";
     font-weight: bold;
     font-size: 1em;
@@ -110,18 +110,17 @@ body {
     padding: 5px 15px;
 }
 
-.main__article-left > section > ul > li {
+.main__left > section > ul > li {
     margin-left: -10px;
 }
 
-.left__propos {
+.main__left > section > p {
     text-align: justify;
     text-indent: 20px;
     margin-left: 15px;
 }
 
-.main__article-right {
+.main__right {
     flex: 2 1 0;
     background-color: white;
 }
-
