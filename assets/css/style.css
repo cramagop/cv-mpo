@@ -45,8 +45,6 @@ body {
 .photo-profile__img:hover {
     cursor: zoom-in;
 }
-/* Header CSS end */
-
 
 /* Address CSS start */
 .address {
@@ -87,7 +85,6 @@ body {
     text-align: end;
     margin-right: 30px;
 }
-/* Address CSS end */
 
 /* Main CSS start */
 .main {
@@ -152,12 +149,48 @@ body {
     margin-left: 15px;
 }
 
-/*
-.main__right > article:hover + h2 {
+.main__right article:hover > h2 {
     border-left: 5px solid #782221;
 }
-*/
+
 .main__right > article > section > h3 {
     font-family: "Lato";
     font-size: 1em;
+}
+
+/* Footer part */
+.footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #782221;
+    align-content: center;
+}
+
+.footer__image {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.footer__icone {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+.footer__icone img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer__icone img:hover {
+    opacity: 0.5;
+}
+
+.footer__date {
+    font-family: "Raleway-Regular";
+    color: white;
 }
